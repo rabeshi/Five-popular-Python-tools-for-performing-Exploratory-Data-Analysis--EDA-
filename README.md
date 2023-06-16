@@ -10,17 +10,17 @@ This repository showcases five GUI Python tools for Exploratory Data Analysis (E
    - Description: Generates a comprehensive HTML report with various statistical analyses, data visualizations, and data quality checks.
 
    ```python
-# To use Pandas Profiling, follow the steps:
-import pandas as pd
-from pandas_profiling import ProfileReport
+   # To use Pandas Profiling, follow the steps:
+   import pandas as pd
+   from pandas_profiling import ProfileReport
 
-# Load your dataset into a pandas DataFrame
-df = pd.read_csv('your_dataset.csv')
+   # Load your dataset into a pandas DataFrame
+   df = pd.read_csv('your_dataset.csv')
 
-# Generate the report
-profile = ProfileReport(df)
-profile.to_file("report.html")
-# ...
+   # Generate the report
+   profile = ProfileReport(df)
+   profile.to_file("report.html")
+   # ...
 
 
 
