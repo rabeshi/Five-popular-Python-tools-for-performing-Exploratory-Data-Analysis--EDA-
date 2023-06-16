@@ -50,6 +50,21 @@ This repository showcases five GUI Python tools for Exploratory Data Analysis (E
    - Link: [D-Tale](https://github.com/man-group/dtale)
    - Description: Provides a user-friendly interface to interactively visualize and analyze Pandas dataframes. It offers features like filtering, sorting, aggregation, and charting.
 
+    ```python
+   # To use D-Tale, follow the steps:
+   pip install dtale
+
+   import pandas as pd
+   import dtale
+
+   # Load the dataset
+   data = pd.read_csv('data.csv')
+
+   # Launch D-Tale
+   dtale.show(data)
+
+
+
 4. **Exploratory**
    - Link: [Exploratory](https://exploratory.io/)
    - Description: A commercial tool that offers a GUI-based environment for data exploration, visualization, and analysis. It supports various data sources and provides a range of powerful analytics capabilities.
