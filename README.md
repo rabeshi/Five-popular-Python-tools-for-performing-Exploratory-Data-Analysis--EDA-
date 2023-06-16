@@ -23,8 +23,6 @@ This repository showcases five GUI Python tools for Exploratory Data Analysis (E
    # ...
 
 
-
-
 2. **Sweetviz**
    - Link: [Sweetviz](https://github.com/fbdesignpro/sweetviz)
    - Description: Automatically generates beautiful, high-density visualizations and statistical summaries of a given dataset.
