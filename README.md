@@ -47,6 +47,7 @@ This repository showcases five GUI Python tools for Exploratory Data Analysis (E
 
 
 3. **D-Tale**
+   - About: D-Tale is a GUI-based tool that provides an interactive interface for data exploration, analysis, and visualization.
    - Link: [D-Tale](https://github.com/man-group/dtale)
    - Description: Provides a user-friendly interface to interactively visualize and analyze Pandas dataframes. It offers features like filtering, sorting, aggregation, and charting.
 
@@ -65,13 +66,59 @@ This repository showcases five GUI Python tools for Exploratory Data Analysis (E
 
 
 
-4. **Exploratory**
+4. **Bamboolib**
+   - About: Bamboolib is a Python library that provides a user-friendly interface for working with pandas DataFrames. It aims to simplify data exploration, analysis, and visualization tasks by providing an intuitive, interactive, and easy-to-use interface.
    - Link: [Exploratory](https://exploratory.io/)
    - Description: A commercial tool that offers a GUI-based environment for data exploration, visualization, and analysis. It supports various data sources and provides a range of powerful analytics capabilities.
 
+   ```python
+   # Load the library
+   pip install bamboolib
+
+   #To use Bamboolib, follow the steps
+   import bamboolib as bam
+
+   #Launch Bamboolib
+   import pandas as pd
+
+   # Load data into a DataFrame
+   data = pd.read_csv('data.csv')
+
+   # Open bamboolib interface
+   bam.show(data)
+
+
+
+
 5. **Orange**
+   - About: Orange is an open-source data visualization and analysis toolkit developed in Python. It provides a visual programming interface and a wide range of data mining, machine learning, and statistical techniques.
    - Link: [Orange](https://orange.biolab.si/)
    - Description: A visual programming tool for data visualization and analysis. It offers a wide range of pre-built components and workflows for EDA and machine learning tasks.
+
+   ```python
+   # Load the library
+   pip install Orange3
+
+   #To use Orange3, follow the steps
+   import Orange
+
+   # Create a workflow
+   workflow = Orange.canvas()
+
+   # Load data into the workflow
+   data = Orange.data.Table('data.csv')
+
+   # Add a widget to the workflow
+   widget = workflow.add_widget("widget_name")
+
+   # Connect the data to the widget
+   workflow.connect(data, widget)
+
+   # Visualize the workflow
+   workflow.save('workflow.ows')
+   workflow.show()
+
+
 
 ## Installation
 
