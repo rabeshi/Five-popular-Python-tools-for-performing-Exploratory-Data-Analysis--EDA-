@@ -10,6 +10,9 @@ This repository showcases five GUI Python tools for Exploratory Data Analysis (E
    - Description: Generates a comprehensive HTML report with various statistical analyses, data visualizations, and data quality checks.
 
    ```python
+   # Load the library
+   pip install ydata-profiling
+
    # To use Pandas Profiling, follow the steps:
    import pandas as pd
    from pandas_profiling import ProfileReport
