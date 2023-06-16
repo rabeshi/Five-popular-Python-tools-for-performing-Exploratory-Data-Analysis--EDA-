@@ -1,4 +1,4 @@
-# GUI Python EDA Tools
+# Five GUI Python EDA Tools
 
 This repository showcases five GUI Python tools for Exploratory Data Analysis (EDA). These tools provide an interactive and visual approach to exploring and analyzing data. Each tool offers unique features and functionalities that can assist in gaining insights and understanding your data better.
 
