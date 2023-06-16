@@ -9,7 +9,7 @@ This repository showcases five GUI Python tools for Exploratory Data Analysis (E
    - Link: [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling)
    - Description: Generates a comprehensive HTML report with various statistical analyses, data visualizations, and data quality checks.
 
-   ```python
+   ```bash
 # To use Pandas Profiling, follow the steps:
 import pandas as pd
 from pandas_profiling import ProfileReport
@@ -20,8 +20,6 @@ df = pd.read_csv('your_dataset.csv')
 # Generate the report
 profile = ProfileReport(df)
 profile.to_file("report.html")
-
-
 # ...
 
 
