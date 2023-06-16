@@ -68,7 +68,7 @@ This repository showcases five GUI Python tools for Exploratory Data Analysis (E
 
 4. **Bamboolib**
    - About: Bamboolib is a Python library that provides a user-friendly interface for working with pandas DataFrames. It aims to simplify data exploration, analysis, and visualization tasks by providing an intuitive, interactive, and easy-to-use interface.
-   - Link: [Exploratory](https://exploratory.io/)
+   - Link: [Exploratory](https://bamboolib.8080labs.com/)
    - Description: A commercial tool that offers a GUI-based environment for data exploration, visualization, and analysis. It supports various data sources and provides a range of powerful analytics capabilities.
 
    ```python
